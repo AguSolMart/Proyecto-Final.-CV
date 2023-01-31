@@ -1,0 +1,137 @@
+body{
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-business-resume-background-material-picture-image_1116046.jpg);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: orange;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px 30px;
+}
+
+div{
+    color: darkblue;
+    font-family: 'Parisienne', cursive;
+    font-size:60px;
+    margin: 1px;
+    padding: 1px;
+}
+
+#prof{
+    color: darkblue;
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 1px;
+    padding: 1px;
+}
+
+img{
+    position:absolute;
+    right: 150px;
+    width: 300px;
+    border: 6px solid grey;
+    border-radius: 6px;
+    }
+
+.subtitulos{
+    background-color:rgb(64, 168, 253);
+    color: red;
+    width: 840px;
+    font-family: fantasy;
+    font-weight: 500;
+    text-align: center;
+    border-style: ridge;
+    border-radius: 15px;
+}
+
+section#iz{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+section#dere{
+    width: 400px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+
+section#iz {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    text-align: justify;
+}
+
+section#dere{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    text-align:justify;
+}
+
+section#iz article h4{
+    background-color: orange;
+    color: darkblue;
+    border-style: ridge;
+    border-radius: 15px;
+}
+
+section#dere aside h3{
+    background-color: orange;
+    color: darkblue;
+    border-style: ridge;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+}
+section#iz article h4{
+    background-color: orange;
+    color: darkblue;
+    border-style: ridge;
+    border-radius: 15px;
+    width: 600px;
+    text-align: center;
+}
+
+section#iz p{
+    width: 800px;
+    text-align: center;
+}
+
+section#dere ul li {
+list-style:square;
+}
+section#iz ul li{
+    list-style: square;
+}
+
+.hide {
+    display: none;
+}
+
+.sss {
+    display: block;
+}
+
+.btn_leermas{
+    background-color: red;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.5em;
+    box-shadow: 0px 0px 10px 0px;
+    cursor:pointer;
+    position: absolute;
+    left: 500px;
+}
